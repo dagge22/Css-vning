@@ -1,0 +1,59 @@
+﻿div {
+    position :relative;
+    -webkit-animation: mymove 5s infinite;
+}
+
+img{
+    position :relative;
+    -webkit-animation: size 5s infinite;
+}
+
+@-webkit-keyframes size {
+
+    0% {height:0px; width:0px;}
+    100% {height:250px; width:250px;}
+
+      from {
+        transform: rotate(0deg);
+        }
+
+        to {
+        transform: rotate(720deg);
+        }
+}
+
+@-webkit-keyframes mymove {
+    0% {
+        top: 0px;
+        left: 0px;
+        background: red;
+    }
+
+    25% {
+        top: 10px;
+        left: 125px;
+        background: blue;
+    }
+
+    50% {
+        top: 200px;
+        left: 200px;
+        background: lime;
+    }
+
+    75% {
+        top: 100px;
+        left: 0px;
+        background: orange;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+        background: red;
+        
+
+    }
+}
+   
+
